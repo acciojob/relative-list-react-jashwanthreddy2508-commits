@@ -33,7 +33,7 @@ const App = () => {
     <div id="main">
       <h1>Relatives list for Diwali</h1>
 
-      <ol key="relativeList">
+      <ol id="relativeList">
         {
           relatives.map((items) => (
           <li key={items.id}>
